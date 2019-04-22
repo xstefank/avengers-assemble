@@ -112,21 +112,16 @@ public class AvengersResource {
         return result;
     }
 
-    private String getColumnName(@QueryParam("order[0][column]") int orderColumn) {
-        String sortColumn;
+    private String getColumnName(int orderColumn) {
         switch (orderColumn) {
             case 0:
-                sortColumn = "name";
-                break;
+                return "name";
             case 1:
-                sortColumn = "real_name";
-                break;
+                return "real_name";
             case 2:
-                sortColumn = "snapped";
-                break;
+                return "snapped";
             default:
-                sortColumn = null;
+                return null;
         }
-        return sortColumn;
     }
 }
