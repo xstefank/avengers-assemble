@@ -1,0 +1,6 @@
+INSERT INTO avenger(id, name, real_name, snapped) VALUES (nextval('avenger_sequence'), 'Iron Man', 'Tony Stark', FALSE)
+INSERT INTO avenger(id, name, real_name, snapped) VALUES (nextval('avenger_sequence'), 'Captain America', 'Steve Rogers', FALSE)
+INSERT INTO avenger(id, name, real_name, snapped) VALUES (nextval('avenger_sequence'), 'Black Widow', 'Natasha Romanoff', FALSE)
+INSERT INTO avenger(id, name, real_name, snapped) VALUES (nextval('avenger_sequence'), 'Spider-Man', 'Peter Parker', TRUE)
+INSERT INTO avenger(id, name, real_name, snapped) VALUES (nextval('avenger_sequence'), 'Hulk', 'Bruce Banner', FALSE)
+INSERT INTO avenger(id, name, real_name, snapped) VALUES (nextval('avenger_sequence'), 'Groot', 'I am Groot!', TRUE)
