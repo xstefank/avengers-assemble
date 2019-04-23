@@ -86,7 +86,6 @@ public class AvengerController {
         result.setDraw(draw);
 
         String sortColumn = getColumnName(orderColumn);
-        System.out.println(sortColumn);
 
         Sort.Direction direction = orderDirection.equals("asc") ? Sort.Direction.ASC : Sort.Direction.DESC;
         Sort sort = sortColumn != null ? Sort.by(direction, sortColumn) : null;
